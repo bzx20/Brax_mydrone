@@ -30,6 +30,7 @@ from brax.envs import pusher
 from brax.envs import reacher
 from brax.envs import walker2d
 from brax.envs import wrapper
+from brax.envs import mydrone
 from brax.envs.env import Env, State
 
 _envs = {
@@ -44,6 +45,7 @@ _envs = {
     'pusher': pusher.Pusher,
     'reacher': reacher.Reacher,
     'walker2d': walker2d.Walker2d,
+    'mydrone': mydrone.MyDroneEnv,
 }
 
 
